@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  color: white;
+}
+
+/* NAV */
+header {
+  padding: 20px 60px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: radial-gradient(circle, #111, #000);
+}
+
+.hero h2 {
+  font-size: 3rem;
+}
+
+.hero p {
+  color: #aaa;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: linear-gradient(45deg, #00ffcc, #00aaff);
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* SERVICES */
+.services {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #111;
+  padding: 30px;
+  border-radius: 10px;
+  width: 250px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.5s;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+/* CONTACT */
+.contact {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  gap: 15px;
+}
+
+.contact input {
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact button {
+  padding: 12px;
+  background: #00ffcc;
+  border: none;
+  cursor: pointer;
+}
+
+/* WHATSAPP */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  padding: 15px;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+}
