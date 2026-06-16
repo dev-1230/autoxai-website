@@ -1,73 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Autoxai - Automation Agency</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Autoxai - AI Automation Platform</title>
+  <meta name="description" content="Automate your workflows with AI. Save time, scale faster with Autoxai." />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
 
-<header>
-  <nav>
-    <h1>Autoxai</h1>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="container nav-content">
+    <h2 class="logo">Autoxai</h2>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#features">Features</a>
+      <a href="#how">How it Works</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn primary">Get Started</a>
+  </div>
 </header>
 
 <!-- HERO -->
 <section class="hero">
-  <h2>We Build AI Systems That Scale Your Business</h2>
-  <p>Automate workflows. Generate leads. Dominate your market.</p>
-  <a href="#contact" class="btn">Book a Call</a>
+  <div class="container hero-content">
+    <h1>Automate Your Business with AI</h1>
+    <p>
+      Autoxai helps you eliminate repetitive work, connect tools, and scale faster — without coding.
+    </p>
+    <div class="hero-buttons">
+      <a href="#contact" class="btn primary">Get Started Free</a>
+      <a href="#how" class="btn secondary">See How It Works</a>
+    </div>
+  </div>
 </section>
 
-<!-- SERVICES -->
-<section class="services">
-  <h2>What We Do</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>AI Lead Generation</h3>
-      <p>Automated pipelines that bring qualified leads daily.</p>
+<!-- VALUE -->
+<section class="value">
+  <div class="container">
+    <h2>Why Autoxai?</h2>
+    <div class="value-grid">
+      <div class="card">
+        <h3>Save Time</h3>
+        <p>Automate repetitive tasks and free up hours every week.</p>
+      </div>
+      <div class="card">
+        <h3>No Coding</h3>
+        <p>Build powerful workflows without technical skills.</p>
+      </div>
+      <div class="card">
+        <h3>Scale Faster</h3>
+        <p>Grow your operations without increasing your team size.</p>
+      </div>
     </div>
-    <div class="card">
-      <h3>Workflow Automation</h3>
-      <p>Save 100+ hours/month with smart systems.</p>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features" class="features">
+  <div class="container">
+    <h2>Powerful Features</h2>
+    <div class="features-grid">
+      <div class="card">
+        <h3>AI Automation</h3>
+        <p>Let AI handle repetitive workflows automatically.</p>
+      </div>
+      <div class="card">
+        <h3>Integrations</h3>
+        <p>Connect your favorite tools in minutes.</p>
+      </div>
+      <div class="card">
+        <h3>Smart Workflows</h3>
+        <p>Create intelligent processes tailored to your business.</p>
+      </div>
     </div>
-    <div class="card">
-      <h3>Growth Systems</h3>
-      <p>Funnels designed to scale revenue fast.</p>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how" class="how">
+  <div class="container">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <span>1</span>
+        <h3>Connect Tools</h3>
+        <p>Integrate your apps and platforms easily.</p>
+      </div>
+      <div class="step">
+        <span>2</span>
+        <h3>Create Workflow</h3>
+        <p>Define what you want to automate.</p>
+      </div>
+      <div class="step">
+        <span>3</span>
+        <h3>Run Automatically</h3>
+        <p>Let Autoxai handle everything for you.</p>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- CTA -->
 <section class="cta">
-  <h2>Ready to Scale Your Business?</h2>
-  <a href="#contact" class="btn">Get Started</a>
+  <div class="container">
+    <h2>Start Automating Today</h2>
+    <p>No coding. No complexity. Just results.</p>
+    <a href="#contact" class="btn primary large">Get Started</a>
+  </div>
 </section>
 
 <!-- CONTACT -->
-<section class="contact" id="contact">
-  <h2>Book a Free Strategy Call</h2>
-  <form>
-    <input type="text" placeholder="Your Name" required>
-    <input type="email" placeholder="Your Email" required>
-    <input type="text" placeholder="Your Business" required>
-    <button type="submit">Submit</button>
-  </form>
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Get Started</h2>
+    <p>Tell us what you want to automate.</p>
+
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="What do you want to automate?" required></textarea>
+      <button type="submit" class="btn primary">Submit</button>
+    </form>
+  </div>
 </section>
 
-<!-- WHATSAPP -->
-<a href="https://wa.me/91YOURNUMBER" class="whatsapp" target="_blank">💬</a>
-
+<!-- FOOTER -->
 <footer>
-  <p>© 2026 Autoxai</p>
+  <div class="container">
+    <p>© 2026 Autoxai. All rights reserved.</p>
+  </div>
 </footer>
 
 <script src="js/script.js"></script>
